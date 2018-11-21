@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "middleware": "^1.0.0",
+    "pg": "^6.4.2",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
