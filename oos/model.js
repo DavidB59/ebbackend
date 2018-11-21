@@ -38,4 +38,4 @@ const OOS = sequelize.define('oos', {
 })
 
 
-module.exports = OOS
+module.exports = OOS 
