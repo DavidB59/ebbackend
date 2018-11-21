@@ -24,6 +24,19 @@ router.post('/oos', (req, res, next) => {
     .catch(error => next(error))
 })
 
+router.get('/oos/:id', (req, res, next) => {
+  OOS
+  .findById(req.params.id)
+  .then(object=> {
+      if (!object) {
+        return res.status(404).send({
+          message: `Object does not exist`
+        })
+      }
+      return res.send(object)
+    })
+    .catch(error => next(error))
+})
 
 module.exports = router 
 
